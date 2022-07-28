@@ -62,7 +62,7 @@ header > h1 {
 
 header > p {
     font-family: var(--font-padrao);
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: white;
     max-width: 500px;
     padding-right: 10px;
@@ -151,10 +151,10 @@ main h2 {
 }
 
 main p {
+    
     margin: 15px 0px 15px 0px;
     text-align: justify;
     text-indent: 30px;
-    font-size: 1.1em;
     line-height: 2em;/*espaçamento entre linhas*/
 }
 
@@ -205,13 +205,9 @@ aside > ul {       /*cod 00a0 é espaço do emoji*/
     columns: 2;
 }
 
-.history {
-    
-}
-
 article p {
     font-weight: bold;
-    font-size: 120%;
+    font-size: 105%;
 }
 
 footer {
