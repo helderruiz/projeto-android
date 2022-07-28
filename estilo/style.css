@@ -40,6 +40,7 @@ body {
 /*Colocando emoji link externo*/
 a.externo::after {
     content: '\1F517';
+    font-size: 0.7em;
 }
 
 header {
@@ -54,17 +55,19 @@ header > h1 {
     color: white;
     font-family: var(--font-destaque);
     font-size: 40px;
+    padding-bottom: 10px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.861);
 }
 
 header > p {
     font-family: var(--font-padrao);
-    font-size: 17px;
+    font-size: 1.2em;
     color: white;
     max-width: 500px;
     padding-right: 10px;
     padding-left: 10px;
+    padding-bottom: 50px;
     margin: auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.418);
 }
@@ -166,10 +169,11 @@ main strong {
 main a {
     text-decoration: none;
     font-weight: bolder;
+    font-size: 15px;
     color: var(--cor3);
     background-color: var(--cor0);
-    padding: 2px 8px;
-    border-radius: 10px;
+    padding: 2px 2px;
+    border-radius: 7px;
 }
 
 main a:hover {
@@ -179,7 +183,9 @@ main a:hover {
 
 aside {
     background-color: var(--cor1);
-    padding: 10px;
+    font-size: 15px;
+    text-align: justify;
+    padding: 9px;
     border-radius: 10px;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.553);
     border: 1px solid var(--cor5);
@@ -199,9 +205,13 @@ aside > ul {       /*cod 00a0 é espaço do emoji*/
     columns: 2;
 }
 
+.history {
+    
+}
+
 article p {
-    text-align: center;
     font-weight: bold;
+    font-size: 120%;
 }
 
 footer {
